@@ -1,0 +1,5 @@
+"ID del vehículo","Grupo de Familia",Subfamilia,Marca/Modelo,"Año de adquisición","Costo de adquisición","Vida útil estimada (años)","Valor residual","Método de depreciación","Justificación técnica","Fecha de revisión","Depreciación anual"
+VH001,Transporte,Auto,"Toyota Hilux",2019,32000,6,5000,Lineal,"Uso intensivo en rutas rurales, mantenimiento semestral",2023-12-01,4500
+VH002,Transporte,"Caminoneta blindanda","Ford Transit",2020,45000,8,7000,Lineal,"Uso urbano, mantenimiento trimestral",2023-12-01,4750
+VH003,Transporte,Auto,"Hyundai H100",2018,28000,5,4000,Lineal,"Alta carga diaria, desgaste acelerado",2023-12-01,4800
+VH004,Transporte,Auto,"Chevrolet N300",2021,23000,7,3000,Lineal,"Uso moderado, condiciones urbanas",2023-12-01,2857.14
