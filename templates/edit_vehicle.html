@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Vehicle</title>
+</head>
+<body>
+    <h1>Edit Vehicle</h1>
+    <form method="POST">
+        <label>Grupo Familia:</label>
+        <input type="text" name="grupo_familia" value="{{ vehicle.grupo_familia }}" required><br>
+
+        <label>Subfamilia:</label>
+        <input type="text" name="subfamilia" value="{{ vehicle.subfamilia }}" required><br>
+
+        <label>Marca / Modelo:</label>
+        <input type="text" name="marca_modelo" value="{{ vehicle.marca_modelo }}" required><br>
+
+        <label>Año:</label>
+        <input type="number" name="anio" value="{{ vehicle.anio }}" required><br>
+
+        <label>Costo:</label>
+        <input type="number" step="0.01" name="costo" value="{{ vehicle.costo }}" required><br>
+
+        <label>Vida útil estimada (años):</label>
+        <input type="number" name="vida_util" value="{{ vehicle.vida_util }}"><br>
+
+        <label>Valor residual:</label>
+        <input type="number" name="valor_residual" value="{{ vehicle.valor_residual }}"><br>
+
+        <label>Método de depreciación:</label>
+        <input type="text" name="metodo_depreciacion" value="{{ vehicle.metodo_depreciacion }}"><br>
+
+        <label>Justificación técnica:</label>
+        <textarea name="justificacion_tecnica">{{ vehicle.justificacion_tecnica }}</textarea><br>
+
+        <label>Fecha de revisión:</label>
+        <input type="date" name="fecha_revision" value="{{ vehicle.fecha_revision }}"><br>
+
+        <label>Depreciación anual:</label>
+        <input type="number" step="0.01" name="depreciacion_anual" value="{{ vehicle.depreciacion_anual }}"><br>
+
+        <button type="submit">Save Changes</button>
+    </form>
+
+    <a href="/vehicles">Back to Vehicles</a>
+</body>
+</html>

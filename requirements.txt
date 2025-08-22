@@ -1,0 +1,6 @@
+
+pandas==2.3.1
+SQLAlchemy==2.0.42
+PyMySQL==1.1.1
+matplotlib==3.10.5
+streamlit==1.48.0

@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# CSV or other local data files (optional)
+vehiculos.csv
+
+# Flask instance folder
+instance/
+
+# IDE/editor specific files
+.vscode/
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
